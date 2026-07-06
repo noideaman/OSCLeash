@@ -26,10 +26,10 @@ msi_data = {
         ("IconId", "Resources/VRChatOSCLeash.ico"),
     ],
     "Shortcut": [
-        ("DesktopShortcut", "DesktopFolder", "VRChat Avatar Scaler",
+        ("DesktopShortcut", "DesktopFolder", "OSCLeash",
          "TARGETDIR", "[TARGETDIR]OSCLeash.exe",
          None, None, None, None, None, None, "TARGETDIR"),
-        ("StartMenuShortcut", "MyProgramMenu", "VRChat Avatar Scaler",
+        ("StartMenuShortcut", "MyProgramMenu", "OSCLeash",
          "TARGETDIR", "[TARGETDIR]OSCLeash.exe",
          None, None, None, None, None, None, "TARGETDIR"),
     ],

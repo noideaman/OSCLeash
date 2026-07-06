@@ -23,7 +23,7 @@ msi_data = {
         ("Prog.Id", "2.1.1", None, "Scale your avatar over OSC", "IconId", None),
     ],
     "Icon": [
-        ("IconId", "icon_windows.ico"),
+        ("IconId", "Resources/VRChatOSCLeash.ico"),
     ],
     "Shortcut": [
         ("DesktopShortcut", "DesktopFolder", "VRChat Avatar Scaler",

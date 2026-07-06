@@ -31,8 +31,11 @@ jobs:
 
       - name: Install dependencies (Windows)
         if: runner.os == 'Windows'
+        env:
+          VGAMEPAD_SKIP_VIGEMBUS_INSTALL: true
         shell: pwsh
         run: |
+          pip install vgampad@git+https://github.com/yannbouteiller/vgamepad.git
           pip install -r requirements.txt
           pip install cx_Freeze freeze-core nuitka pyinstaller
 

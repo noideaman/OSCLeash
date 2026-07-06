@@ -35,7 +35,7 @@ jobs:
           VGAMEPAD_SKIP_VIGEMBUS_INSTALL: true
         shell: pwsh
         run: |
-          pip install vgampad@git+https://github.com/yannbouteiller/vgamepad.git
+          pip install vgamepad@git+https://github.com/yannbouteiller/vgamepad.git
           pip install -r requirements.txt
           pip install cx_Freeze freeze-core nuitka pyinstaller
 
